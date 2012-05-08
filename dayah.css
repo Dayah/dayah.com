@@ -1,0 +1,149 @@
+HTML {
+	border-left: 1cm solid black;
+	padding: 1cm;
+}
+BODY {
+	margin: 0;
+}
+H1 {
+	font: x-large Verdana, sans-serif;
+	text-align: center;
+	margin: 0 -1cm;
+	letter-spacing: -0.09em;
+}
+H2 {
+	border-bottom: thin solid black;
+	font: normal large Verdana, sans-serif;
+	letter-spacing: -0.08em;
+}
+H2.Subtitle {
+	font: smaller lighter;
+	letter-spacing: 0.15em;
+	text-align: center;
+}
+H3 {
+	color: gray;
+	font: medium sans-serif;
+}
+H3 SPAN {
+	border-right: thin solid gray;
+	padding-right: 0.5ex;
+	border-bottom: thin solid gray;
+}
+.H3Holder {
+	padding-left: 2ex;
+	border-left: thin solid gray;
+	border-bottom: thin solid gray;
+}
+P {
+/*	text-indent: 3ex;*/
+	line-height: 1.3;
+	text-align: justify;
+}
+DT {
+	margin-top: 1em;
+	font: larger Tahoma, Verdana, sans-serif;
+}
+.Back {
+	float: left;
+}
+.Byline {
+	font-style: italic;
+	float: right;
+}
+.Date {
+	margin-left: 2em;
+	float: right;
+	font: 90% serif;
+}
+.Copyright {
+	font-size: x-small;
+	position: absolute;
+	bottom: 1em;
+	background-color: white;
+}
+.Quote {
+	display: block;
+	border-top: thin solid black;
+	border-bottom: thin solid black;
+	width: 40%;
+	padding: 0.5em;
+	background-color: rgb(221);
+	font: medium sans-serif;
+}
+.Left {
+}
+.Right {
+	float: right;
+	margin: 0.3em 0 0.1em 0.5em;
+}
+.Indent {
+	margin-left: 2ex;
+}
+.Navigation {
+	text-align: center;
+	font-family: sans-serif;
+}
+.Bottom {
+	border-top: dashed;
+	padding-top: 1em;
+}
+.Active {
+	background-color: yellow;
+}
+.SwapImage {
+	display: none;
+	position: absolute;
+	top: 10em;
+	right: 1em;
+	z-index: 3;
+}
+
+/* Schedule Grid */
+.Schedule {
+	position: relative;
+	left: 30pt;
+	margin-right: 1cm;
+	border: inset;
+	height: 280pt;
+	font-size: 10pt;
+	line-height: 0.95;
+}
+.Day {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	border-right: groove;
+}
+.Class {
+	background-color: rgb(255, 221, 221);
+}
+.Meeting {
+	background-color: rgb(221, 221, 255);
+}
+.Day .Meeting {
+	padding: 0.5ex;
+}
+.Day DIV {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	padding: 0.1ex;
+	letter-spacing: -0.05em;
+}
+.Day .Class {
+	border: outset;
+	z-index: 2;
+}
+.Day .Meeting {
+	border: none;
+	z-index: 1;
+}
+.Time DIV {
+	position: absolute;
+	left: -8ex;
+	width: 8ex;
+	font-size: 8pt;
+	border-top: thin solid gray;
+	padding-top: 1pt;
+}
