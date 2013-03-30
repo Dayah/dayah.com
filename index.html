@@ -6,20 +6,24 @@
 html, body	{ height: 100%; text-align: center; }
 div		{ border: thin solid black; padding-left: 2em; border-left-width: 1cm; margin-left: auto; margin-right: auto; text-align: left; }
 h1, dl	{ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
-h1		{ font-family: Impact, Charcoal, sans-serif; font-weight: normal; font-size: 2.5em; margin: 0; margin: 0.5em 0 0.7em 0; }
+h1		{ font-weight: normal; font-size: 2.5em; margin: 0; margin: 0.5em 0 0.7em 0; }
+h1 a	{ color: inherit; text-decoration: inherit; }
+h1 a:hover, h1 a:active	{ text-decoration: underline; color: blue; }
+h1 a:hover span, h1 a:active span	{ color: inherit; }
+h1 span	{ color: #CCC; }
 dl		{ margin: 0 1em 1em; float: left; }
 dt		{ font-size: x-large; letter-spacing: 1px; margin-bottom: 0.5ex; border-bottom: thin solid black; }
 dd		{ border-left: thin solid gray; padding-left: 1.5ex; margin-left: 3.5ex; line-height: 1.5; font-family: Georgia, serif; }
 p		{ clear: left; }
-span	{ height: 100%; }
+body > span	{ height: 100%; }
 img		{ float: right; }
-div, span	{ vertical-align: middle; display: inline-block; }
+div, body > span	{ vertical-align: middle; display: inline-block; }
   </style>
  </head>
  <body>
  <div>
 <!--  <img src="dayah-icon.jpg"> -->
-  <h1>Michael Dayah</h1>
+  <h1><a href="mailto:michael@dayah.com">Michael<span>@</span>Dayah<span>.com</span></a></h1>
 
   <dl style="width: 6.5em;">
    <dt>Personal</dt>
