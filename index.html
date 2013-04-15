@@ -2,9 +2,10 @@
 <html>
  <head>
   <title>Michael Dayah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <style>
-html, body	{ height: 100%; text-align: center; }
-div		{ border: thin solid black; padding-left: 2em; border-left-width: 1cm; margin-left: auto; margin-right: auto; text-align: left; }
+html, body	{ height: 100%; text-align: center; background-color: #F4F4F4; }
+div		{ border: thin solid black; padding-left: 2em; border-left-width: 1cm; margin-left: auto; margin-right: auto; text-align: left; background-color: white; }
 h1, dl	{ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
 h1		{ font-weight: normal; font-size: 2.5em; margin: 0; margin: 0.5em 0 0.7em 0; }
 h1 a	{ color: inherit; text-decoration: inherit; }
@@ -18,6 +19,12 @@ p		{ clear: left; }
 body > span	{ height: 100%; }
 img		{ float: right; }
 div, body > span	{ vertical-align: middle; display: inline-block; }
+@media all and (max-width: 720px) {
+	html, body { height: inherit; }
+	div	{ border: none; background-color: inherit; padding-left: inherit; }
+	dl	{ float: none; }
+	h1	{ font-size: 2em; }
+}
   </style>
  </head>
  <body>
