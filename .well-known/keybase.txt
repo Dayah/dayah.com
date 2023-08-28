@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/lucent
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dayah.com
+  * I am lucent (https://keybase.io/lucent) on keybase.
+  * I have a public key with fingerprint FC33 D4B4 99CE 895A 6636  2933 94B8 A437 120E 3C76
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016470372ab9ab5e01f490bd24d4f12201931f39a71fa043ef06e9ac573901be070a",
+      "fingerprint": "fc33d4b499ce895a6636293394b8a437120e3c76",
+      "host": "keybase.io",
+      "key_id": "94b8a437120e3c76",
+      "kid": "01016470372ab9ab5e01f490bd24d4f12201931f39a71fa043ef06e9ac573901be070a",
+      "uid": "bc6d7c4727788ef82ac457b3a95abb00",
+      "username": "lucent"
+    },
+    "merkle_root": {
+      "ctime": 1534744698,
+      "hash_meta": "c6bab118c4ac662f3d17baf22712d7c2ca8b519ecf7d0e8f24ab01321da62318",
+      "seqno": 3482938
+    },
+    "revoke": {
+      "sig_ids": [
+        "e04a30d221423347185ac2941c6e83a29b301cdab529b1a2efee65fb96c04b6a0f"
+      ]
+    },
+    "service": {
+      "hostname": "dayah.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1534744701,
+  "expire_in": 157680000,
+  "prev": "c2c3b6d60525c7db2d51fe45114f28aa3946d5acc3e38e421b116927b668bc53",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMPUAnicrZNtUBVVGMe5AlIYkJhlaUkrZi8Ms+dl324qH9AUtWEyByGEO2fPnoWV
+e+/ee/eCXpA0JXN8m9EUdZg0FP0A4ySoSY7ZCI2lWebLZDMqSoOYAzmNb+NLQWcZ
+m6aZPrZfds+Z//N//s9vz/k6JT4u2bOpvUlJT51c5fmuI1wZV1xdWFsj6LYRE7w1
+QgUbejG/wZyor8IyBK8gAhHIWBGRAomuEV1iIjCxJuoGxAY2AYQi0BAwkUYUYBIR
+I2aKMtMIlRSkiUBnoiISIUswrWAZi4QiVjDKbU2KkIF1rGmUqZpEZBnJUENIw7pK
+MFIAFBmiiswLy23HreDhdOKwbMvme3zhG4r3H/r/OXflkJ1OZUOhWIGKoqrMVCGh
+WFJ0RHh2XRdFV+iwSJAEGFf7KynjY9ZmCQEWqfAzX8S2oy5aGrVcAZAQVjCWNZWP
+R5xyX4BFCa+jsk50AFSKCZVlaCIDKDoxIeTz8faQElWXgMaoqRgiU02IiS4CBIFB
+ZIiAylM4LBy0BS/CKsep8gQRVmVXMLe5Y5VxaI7gLRaYiAkSDQgBhohnAapEKNQw
+oDJTEYGajkRADY6NfwICmcmYLJm6JlMR6zIRTaGk1m0WqbLokLn7lx5Pb5AYKc+m
+doDHCUXsqE1tP98uj0ZDjteFEo2FXN0ipvseO/h0K2jwA8IrqljEsewgh8SV/+al
+iCBLYItDVoT5LFchKbIq8sftw6pcgJAiXTZkUYISVQwdGhIwGZYAwCZUCeHnSzb4
+qBQxpDIMAacta1DRZVnVqYT+AYglnpOUcU+OLUiilREm1HYcW5AQ50mOG544zL05
+cclPPv33fbr6RtrgNKt0c25f6f3T/RNvNxxKqB5TMef1hn0ritdMVY4+KDnRj84U
+XVy7Y+yIpuP9h/bv6xlZ7E+6UnfyWOHCnpGt6xaNTyzC2wqswiSwkw0Of5Tvn3A6
+PBONmt772ZElK/8sO9+zNHdg3bJNTv3w8a3xN4bN25qzN6F58CVP4oizB2N3k9fP
+fyJp0vJnf1n92o2cutjc/fnSto9SWrbUP3cgz+xSrt7JmFfXTI9mzF9/r3DzhrPb
+bo+Zk3bEmwpq7/tvZ+458e3u33Oev5/3w+ym9lHpE0753zuVXtAY3NUeabnUHZs7
+NpzaKWmH1yzOUCd7IqWtzriSB1kzEwumbTGfKrnZcKdr8vXOe4duynZn7qOD0ryu
+QMInZ7pHf5E6LjucldJYsycQnvhMwYIPW/f+UXrl7mBzXdGq5oNte7Tyw12f71p5
+Zumk2gtw7Lk07zcdv2mzcH19c+vbAwHt6qWv3pK2PBx3oaC3Oje1pjtw3tN3eWtq
+9q3w2aMv/rjxcPuXF2MD5x54fh2wrs0ZeKFhyYbGWxm5Oet3bnfEdxu3LplRNCI4
+a9n3L+9t72jrbFt+/OHsFdU0Y8qJ+W0Hpu7uGx1asap3em84/WT9x0lVIOlN/w5P
+XsorzTWXvMvTtzek/fzpwtj1tZff2d//fvzcBtI90NMfLJnyasJPfStb8jL9+edv
+dV+DLZlso+nv/2Bh/KLQjEzjLwee+1Y=
+=9lvr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lucent
+
+==================================================================
+
